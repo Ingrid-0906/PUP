@@ -4,3 +4,4 @@ metadata_Feeding_GROCERIES.csv filter=lfs diff=lfs merge=lfs -text
 metadata_Feeding_PERSONAL_CARE.csv filter=lfs diff=lfs merge=lfs -text
 meta_Grocery_csv.csv filter=lfs diff=lfs merge=lfs -text
 Original_personal_care.csv filter=lfs diff=lfs merge=lfs -text
+meta_Health_and_Personal_Care.csv filter=lfs diff=lfs merge=lfs -text
