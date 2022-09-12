@@ -155,13 +155,14 @@ df_1[2] = df_1[2].replace({'Juices':'Juice',
                            'Baking Chips':'Baking Chocolates, Carob & Cocoa',
                            'Fresh Baked Cookies':'Grocery Cookies'})
 
+
 # Removing gifts_1
 df_1 = df_1[~df_1[2].isin(['Fresh Cut Flowers','Meat & Seafood Gifts','Assortments & Variety Gifts','Food & Beverage Gifts',
                            'Fresh Flowers & Live Indoor Plants','Candy & Chocolate Assortments','Candy & Chocolate Gifts'])]
 
 # Removing gifts_2
 df_1 = df_1[~df_1[2].isin(['Jam, Jelly & Sweet Spread Gifts','Fruit & Nut Gifts','Fruit & Vegetable Trays',
-                          'Fresh Flowers & Live Indoor Plants','Bakery & Dessert Gifts'])]
+                          'Fresh Flowers & Live Indoor Plants','Bakery & Dessert Gifts','Coffee & Tea Gifts'])]
 
 df_1[df_1[2]=='Grocery Cookies']
 
