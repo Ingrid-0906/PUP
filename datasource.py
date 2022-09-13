@@ -38,12 +38,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Opening data and taking the columns i need to proceed
-url_source = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/Original_grocery_280k.csv?token=AWDSUEWP4GQ3623M3TTSEYTDD7KOC'
+url_source = 'https://github.com/Ingrid-0906/Obiwan_2022/blob/3e58574016524eb88578322898e063aede8b9fae/CSVFiles/Original_grocery_280k.csv'
 df = pd.read_csv(url_source)
 df = df.loc[:,['title','category']]
 
 # Opening data and taking the columns i need to proceed
-url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_GROCERIES.csv?token=AWDSUESQ3UV3LMWUYMI7JPDDD7KVS'
+url_feed = 'https://github.com/Ingrid-0906/Obiwan_2022/blob/3e58574016524eb88578322898e063aede8b9fae/CSVFiles/metadata_Feeding_GROCERIES.csv'
 feed = pd.read_csv(url_feed)
 feed[:2]
 
