@@ -1,0 +1,13 @@
+# Groceries gits
+https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/Original_grocery_280k.csv
+https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_GROCERIES.csv
+
+
+# Personal gits
+https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/meta_Health_and_Personal_Care.csv
+https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_PERSONAL_CARE.csv
+
+
+# Files gits
+https://raw.githubusercontent.com/Ingrid-0906/Obiwan_2022/main/datasource.py # Grocery
+https://raw.githubusercontent.com/Ingrid-0906/Obiwan_2022/main/personal.py # Personal care
