@@ -25,11 +25,11 @@ from nltk.stem.snowball import SnowballStemmer
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-url_personal = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/meta_Health_and_Personal_Care.csv?token=AWDSUEVNVSPSSFIRRUZKCD3DD7UMY'
+url_personal = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/meta_Health_and_Personal_Care.csv?token=AWDSUETKP2IHQGDNSIBP4TDDD7XKA'
 df = pd.read_csv(url_personal)
 df = df.loc[:,['title','categories']]
 
-url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_GROCERIES.csv?token=AWDSUER6CGLQKDTSDH2C6ZDDD7UPS'
+url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_PERSONAL_CARE.csv?token=AWDSUEUBW4FIBDJQVYGJDGTDD7XMY'
 feed = pd.read_csv(url_feed)
 
 """# Original data"""
