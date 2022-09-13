@@ -25,15 +25,15 @@ from nltk.stem.snowball import SnowballStemmer
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-url_personal = 'https://github.com/Ingrid-0906/Obiwan_2022/blob/787cd7dc7f2c1d1c472f15adfd98b4de14c03a41/CSVFiles/meta_Health_and_Personal_Care.csv'
+url_personal = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/meta_Health_and_Personal_Care.csv'
 df = pd.read_csv(url_personal)
 df = df.loc[:,['title','categories']]
 
-url_feed = 'https://github.com/Ingrid-0906/Obiwan_2022/blob/787cd7dc7f2c1d1c472f15adfd98b4de14c03a41/CSVFiles/metadata_Feeding_PERSONAL_CARE.csv'
+url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_PERSONAL_CARE.csv'
 feed = pd.read_csv(url_feed)
 
-"""# Original data"""
 
+"""# Original data"""
 # Splititng the categories into columns
 def get_columns(categ):
   try:
@@ -60,8 +60,8 @@ df_1 = df_1.dropna(subset=['title'], axis=0)
 df_1 = df_1[df_1[1].isin(['Health Care','Vitamins & Dietary Supplements','Personal Care','Baby & Child Care','Sexual Wellness'])]
 df_1 = df_1.loc[:,['title',1,2]]
 
-"""# Feeding data"""
 
+"""# Feeding data"""
 # Splititng the categories into columns
 def get_columns_feed(categ):
   try:
@@ -95,8 +95,8 @@ df_1 = pd.concat([df_1,feed_1])
 # Clear null values
 df_1 = df_1[~df_1[2].isnull()]
 
-"""# Cleaning data"""
 
+"""# Cleaning data"""
 # Function to encode string
 def encode_string(title):
   """(str) -> str
