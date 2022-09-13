@@ -9,11 +9,11 @@ Original file is located at
 
 import pandas as pd
 
-url_personal = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/meta_Health_and_Personal_Care.csv?token=AWDSUEQZ64TBJZ7BCU7B5DTDD7HJQ'
+url_personal = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/meta_Health_and_Personal_Care.csv?token=AWDSUEVNVSPSSFIRRUZKCD3DD7UMY'
 df = pd.read_csv(url_personal)
 df = df.loc[:,['title','categories']]
 
-url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_PERSONAL_CARE.csv?token=AWDSUERHNUMCFVEGCO5IZF3DD7HTM'
+url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_GROCERIES.csv?token=AWDSUER6CGLQKDTSDH2C6ZDDD7UPS'
 feed = pd.read_csv(url_feed)
 
 """# Original data"""
