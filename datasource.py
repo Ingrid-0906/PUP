@@ -39,15 +39,16 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Opening data and taking the columns i need to proceed
 url_source = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/Original_grocery_280k.csv'
-df = pd.read_csv(url_source)
+df = pd.read_csv(url_source, dtype={'fit': 'str'})
 df = df.loc[:,['title','category']]
 
 # Opening data and taking the columns i need to proceed
 url_feed = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_Feeding_GROCERIES.csv'
 feed = pd.read_csv(url_feed)
-
+feed[:2]
 
 """# Working with categories - Cleaning phase"""
+
 # Splititng the categories into columns
 def get_columns(categ):
   try:
@@ -57,8 +58,8 @@ def get_columns(categ):
   except TypeError: # Error if the outer list is missing
     return 'no_category'
 
-
 """## Original data"""
+
 # Create column for category path
 df['category_path'] = df['category'].apply(get_columns)
 
@@ -93,9 +94,10 @@ df_1 = df_1[~df_1[2].isin(counts[counts < 11].index)]
 # Reseting index for all dataframe
 df_1 = df_1.reset_index()
 df_1 = df_1.loc[:,['title',1,2]]
-
+df_1.head(2)
 
 """## Feeding data"""
+
 # Create column for category path
 feed['category_path'] = feed['category'].apply(get_columns)
 
@@ -112,6 +114,7 @@ feed_1 = feed_1.dropna(subset=['title'], axis=0)
 
 feed_1 = feed_1.loc[:,['title',0,1]]
 feed_1 = feed_1.rename(columns={0:1, 1:2})
+feed_1[:2]
 
 # Linking both datas
 df_1 = pd.concat([df_1,feed_1])
