@@ -25,7 +25,6 @@ import warnings
 import pandas as pd
 import numpy as np
 import unicodedata
-import html
 
 # Stopwords package
 import nltk
