@@ -38,7 +38,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # Library
 url = 'https://media.githubusercontent.com/media/Ingrid-0906/PUP/main/CSVFiles/metadata_product.csv' # Check github data link
 df = pd.read_csv(url)
-df[:2]
 
 """# DEF: Function
 
