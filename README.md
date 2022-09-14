@@ -33,7 +33,7 @@ The model was developed to classify groceries, personal care and household suppl
 
 2 - Rename folder to PUP<br>
 
-3- Copy this! It must be on Colab Notebook folder:
+3- Copy this in library imports! Keeo in ind your PUP folder must be in Colab Notebook folder:
 > import os<br>import sys<br>url = '/content/drive/MyDrive/Colab Notebooks/PUP'<br> sys.path.append(os.path.abspath(url))
 
 4 - Import it as a package and wait 40m :stuck_out_tongue: Once loaded does not need run the row again:<br>
