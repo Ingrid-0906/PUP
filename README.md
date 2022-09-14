@@ -1,5 +1,13 @@
 # PUP (Product User Profile)
-
+![GOOGLE CLOUD](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![COLAB](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
+![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+![NUMPY](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
+![PANDAS](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
+![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![SCIKIT LEARN](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+<br>
 This repo contains datas and model to Allcart product categorization. The model was developed with more than 300K products in the following categories:
 - Health Care
 - Vitamins & Dietary Supplements
@@ -27,21 +35,3 @@ This repo contains datas and model to Allcart product categorization. The model 
 
 4 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
-
-## Imports and Libraries
-- import re
-- import sys
-- import warnings
-- import pandas as pd
-- import numpy as np
-- import unicodedata
-- import html
-- import joblib
-- import os
-- import nltk
-- from nltk.corpus import stopwords
-- from nltk.stem.snowball import SnowballStemmer
-- from sklearn.model_selection import train_test_split
-- from sklearn.feature_extraction.text import TfidfVectorizer
-
-https://img.shields.io/badge/pandas-library-green
