@@ -19,6 +19,7 @@ Beverages › Beverage Syrups & Concentrates›
 
 #opening model
 import joblib
+import requests
 
 # Importing darth.py from github / Delayed 44m
 url = 'https://raw.githubusercontent.com/Ingrid-0906/Obiwan_2022/main/darth.py'
