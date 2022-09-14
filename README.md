@@ -42,3 +42,6 @@ The model was developed to classify groceries, personal care and household suppl
 
 5 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
+
+## Requirement
+RAM must be > 4GB
