@@ -31,6 +31,13 @@ import darth as dt
 
 #opening model
 import joblib
+
+# Importing darth.py from github / Delayed 44m
+url = 'https://raw.githubusercontent.com/Ingrid-0906/Obiwan_2022/main/darth.py'
+red = requests.get(url)
+with open('darth.py', 'w') as filer:
+  filer.write(red.text)
+  
 import darth as dt
 
 # import warnings filter
