@@ -82,7 +82,7 @@ class cats:
         results.append(category)
     return results
 
-"""# Testing with function"""
+"""# Function to use """
 
 # Function to classify if grocery or personal product
 def CATS(word):
@@ -92,3 +92,6 @@ def CATS(word):
   else:
     w = ['Other']
   return w
+
+
+"""# Keep on your script here and use CATS("<PRODUCT NAME>") """
