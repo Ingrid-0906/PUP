@@ -22,6 +22,11 @@ import joblib
 # Importing darth.py from github / Delayed 44m
 import darth as dt
 
+# import warnings filter
+from warnings import simplefilter
+# ignore all future warnings
+simplefilter(action='ignore', category=FutureWarning)
+
 class cats:
   def __init__(self, title):
     self.title = title
