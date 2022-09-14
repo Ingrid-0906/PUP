@@ -28,7 +28,7 @@ The model was developed to classify groceries, personal care and household suppl
 - Shave & Hair Removal   
 - Skin Care
 
-## Usage
+## Usage #1 - Quick memory
 1 - Download the git repository (198MB) and set it in the same script folder on Google Colab<br>
 
 2 - Rename folder to PUP<br>
@@ -44,6 +44,13 @@ The model was developed to classify groceries, personal care and household suppl
 
 6 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
+
+## Usage #2 - Slow memory
+1 - Download the git repository (198MB) and set it in the same script folder on Google Colab<br>
+
+2 - Rename folder to PUP<br>
+
+3- Get the file 'cats.py' and insert you script below the function CATS and run it as part of your code.
 
 ## Requirement
 RAM must be > 4GB<br>
