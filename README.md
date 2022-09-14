@@ -42,3 +42,5 @@ This repo contains datas and model to Allcart product categorization. The model 
 - from nltk.stem.snowball import SnowballStemmer
 - from sklearn.model_selection import train_test_split
 - from sklearn.feature_extraction.text import TfidfVectorizer
+
+https://img.shields.io/badge/pandas-library-green
