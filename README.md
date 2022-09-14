@@ -1,4 +1,5 @@
 # PUP (Product User Profile)
+<img src="https://img.shields.io/badge/99.8%25-ACCURACY-yellow" /> <img src="https://img.shields.io/badge/82.8%25-ROC AUC-green" /><br>
 ![GOOGLE CLOUD](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![COLAB](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
@@ -8,7 +9,10 @@
 ![SCIKIT LEARN](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 <br>
-This repo contains datas and model to Allcart product categorization. The model was developed with more than 300K products in the following categories:
+## Dependencies
+<img src="https://img.shields.io/badge/PYTHON-3.0.7-red" /> <img src="https://img.shields.io/badge/PANDAS-1.1.4-green" /> <img src="https://img.shields.io/badge/JOBLIB-1.1.0-gray" /> <img src="https://img.shields.io/badge/NLTK-3.7.0-blue" /> <img src="https://img.shields.io/badge/SCIKIT LEARN-1.1.2-orange" /><br>
+## Purpose
+The model was developed tp classify products from any store accordingly to its name. The dataset had more than 300K products in the following categories:
 - Health Care
 - Vitamins & Dietary Supplements
 - Personal Care 
