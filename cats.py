@@ -60,7 +60,7 @@ class cats:
     results = list()
     api_grocery = dt.vectorizer.transform([self.title])
     for category in dt.data_frame.columns[1:]:
-      filename = "/content/drive/MyDrive/Colab Notebooks/model_obiwan/"+str(modelNumber)+"model.sav"
+      filename = "model_obiwan/"+str(modelNumber)+"model.sav"
       model = joblib.load(filename) # loading already saved model
       modelNumber += 1
       # calculating test accuracy
@@ -81,5 +81,3 @@ def CATS(word):
   else:
     w = ['Other']
   return w
-
-CATS('Clorox Clean-Up All Purpose Cleaner with Bleach, Spray Bottle, Original, 32 oz')
