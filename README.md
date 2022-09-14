@@ -26,3 +26,19 @@ This repo contains datas and model to Allcart product categorization. The model 
 
 4 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
+
+## Imports and Libraries
+- import re
+- import sys
+- import warnings
+- import pandas as pd
+- import numpy as np
+- import unicodedata
+- import html
+- import joblib
+- import os
+- import nltk
+- from nltk.corpus import stopwords
+- from nltk.stem.snowball import SnowballStemmer
+- from sklearn.model_selection import train_test_split
+- from sklearn.feature_extraction.text import TfidfVectorizer
