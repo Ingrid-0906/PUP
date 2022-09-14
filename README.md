@@ -47,4 +47,4 @@ The model was developed to classify groceries, personal care and household suppl
 
 ## Requirement
 RAM must be > 4GB<br>
-Depending on the memmory it takes ~40 minutes to load the model
+Depending on the memory it takes ~40 minutes to load the model
