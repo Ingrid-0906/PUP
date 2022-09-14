@@ -10,7 +10,7 @@
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 <br>
 ## Dependencies
-<img src="https://img.shields.io/badge/PYTHON-3.0.7-red" /> <img src="https://img.shields.io/badge/PANDAS-1.1.4-green" /> <img src="https://img.shields.io/badge/JOBLIB-1.1.0-gray" /> <img src="https://img.shields.io/badge/NLTK-3.7.0-blue" /> <img src="https://img.shields.io/badge/SCIKIT LEARN-1.1.2-orange" /><br>
+<img src="https://img.shields.io/badge/PYTHON-3.0.7-red" /> <img src="https://img.shields.io/badge/PANDAS-1.1.4-green" /> <img src="https://img.shields.io/badge/JOBLIB-1.1.0-yellowgreen" /> <img src="https://img.shields.io/badge/NLTK-3.7.0-blue" /> <img src="https://img.shields.io/badge/SCIKIT LEARN-1.1.2-orange" /><br>
 ## Purpose
 The model was developed tp classify products from any store accordingly to its name. The dataset had more than 300K products in the following categories:
 - Health Care
