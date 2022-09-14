@@ -31,7 +31,9 @@ The model was developed to classify groceries, personal care and household suppl
 
 ## Usage
 1 - Download the git repository and set it in the same script folder.<br>
-2 - Rename folder to PUP
+
+2 - Rename folder to PUP<br>
+
 3 - Import it as a package:<br>
   > from PUP.cats import CAT<br>
 
