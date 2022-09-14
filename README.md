@@ -30,17 +30,20 @@ The model was developed to classify groceries, personal care and household suppl
 - Skin Care
 
 ## Usage
-1 - Download the git repository (198MB) and set it in the same script folder.<br>
+1 - Download the git repository (198MB) and set it in the same script folder on Google Colab<br>
 
 2 - Rename folder to PUP<br>
 
-3 - Import it as a package:<br>
-  > from PUP.cats import CATS<br>
+3- Copy this:
+> url = '/content/drive/MyDrive/Colab Notebooks/PUP'<br> sys.path.append(os.path.abspath(url))
 
-4 - Call the function:<br>
+4 - Import it as a package:<br>
+  > from cats import CATS<br>
+
+5 - Call the function:<br>
   > CATS("Yoplait Go-Gurt Simple Low Fat Yogurt, Variety, 2.25 oz, 32-count")<br>
 
-5 - Output: list(str,str)
+6 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
 
 ## Requirement
