@@ -71,7 +71,7 @@ class cats:
     results = list()
     api_grocery = dt.vectorizer.transform([self.title])
     for category in dt.data_frame.columns[1:]:
-      filename = "./model_obiwan/"+str(modelNumber)+"model.sav"
+      filename = "/content/drive/MyDrive/Colab Notebooks/PUP/model_obiwan/"+str(modelNumber)+"model.sav"
       model = joblib.load(filename) # loading already saved model
       modelNumber += 1
       # calculating test accuracy
