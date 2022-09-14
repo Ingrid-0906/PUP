@@ -36,7 +36,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Library
-url = 'https://media.githubusercontent.com/media/Ingrid-0906/Obiwan_2022/main/CSVFiles/metadata_product.csv' # Check github data link
+url = 'https://media.githubusercontent.com/media/Ingrid-0906/PUP/main/CSVFiles/metadata_product.csv' # Check github data link
 df = pd.read_csv(url)
 df[:2]
 
