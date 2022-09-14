@@ -1,4 +1,4 @@
-# PUP
+# PUP (Product User Profile)
 This repo contains datas and model to Allcart product categorization. The model was developed with more than 300K products in the following categories:
 - Health Care
 - Vitamins & Dietary Supplements
