@@ -10,7 +10,7 @@
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 <br>
 ## Dependencies
-<img src="https://img.shields.io/badge/PYTHON-3.0.7-red" /> <img src="https://img.shields.io/badge/PANDAS-1.1.4-green" /> <img src="https://img.shields.io/badge/JOBLIB-1.1.0-yellowgreen" /> <img src="https://img.shields.io/badge/NLTK-3.7.0-blue" /> <img src="https://img.shields.io/badge/SCIKIT LEARN-1.1.2-orange" /><br>
+<img src="https://img.shields.io/badge/PYTHON-3.0.7-red" /> <img src="https://img.shields.io/badge/PANDAS-1.1.4-green" /> <img src="https://img.shields.io/badge/JOBLIB-1.1.0-yellowgreen" /> <img src="https://img.shields.io/badge/NLTK-3.7.0-blue" /> <img src="https://img.shields.io/badge/SCIKIT LEARN-1.1.2-orange" /><br> <img src="https://img.shields.io/badge/REQUESTS-2.28.1-darkblue" />
 ## Purpose
 The model was developed to classify groceries, personal care and household supply products from any store accordingly to its name. The dataset used had more than 300K products in the following categories:
 - Health Care
@@ -30,15 +30,15 @@ The model was developed to classify groceries, personal care and household suppl
 - Skin Care
 
 ## Usage
-1 - Download the git repository and set it in the same script folder.<br>
+1 - Download the git repository (198MB) and set it in the same script folder.<br>
 
 2 - Rename folder to PUP<br>
 
 3 - Import it as a package:<br>
-  > from PUP.cats import CAT<br>
+  > from PUP.cats import CATS<br>
 
 4 - Call the function:<br>
-  > CAT("Yoplait Go-Gurt Simple Low Fat Yogurt, Variety, 2.25 oz, 32-count")<br>
+  > CATS("Yoplait Go-Gurt Simple Low Fat Yogurt, Variety, 2.25 oz, 32-count")<br>
 
 5 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
