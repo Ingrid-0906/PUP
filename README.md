@@ -50,7 +50,7 @@ The model was developed to classify groceries, personal care and household suppl
 
 2 - Rename folder to PUP<br>
 
-3- Get the file 'cats.py' and insert you script below the function CATS and run it as part of your code.
+3- Get the file 'cats.py' and insert your script below the function CATS and run it as part of your code.
 
 ## Requirement
 RAM must be > 4GB<br>
