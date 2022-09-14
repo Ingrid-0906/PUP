@@ -20,7 +20,9 @@ This repo contains datas and model to Allcart product categorization. The model 
 1 - Download the git repository and set it in the same script folder.<br>
 2 - Import it as a package:<br>
   > from Obiwan.cats import CAT<br>
+
 3 - Call the function:<br>
   > CAT("Yoplait Go-Gurt Simple Low Fat Yogurt, Variety, 2.25 oz, 32-count")<br>
+
 4 - Output: list(str,str)
   > ['Dairy, Cheese & Eggs','Yogurt']
