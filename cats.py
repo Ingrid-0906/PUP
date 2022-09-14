@@ -17,16 +17,18 @@ I have token:<br>
 Beverages › Beverage Syrups & Concentrates›
 """
 
-#opening model
-import joblib
-import requests
-
+""" Windows does not requires this but colab, does:
 # Importing darth.py from github / Delayed 44m
 url = 'https://raw.githubusercontent.com/Ingrid-0906/Obiwan_2022/main/darth.py'
 red = requests.get(url)
 with open('darth.py', 'w') as filer:
   filer.write(red.text)
-
+  
+import darth as dt
+"""
+#opening model
+import joblib
+import requests
 import darth as dt
 
 # import warnings filter
